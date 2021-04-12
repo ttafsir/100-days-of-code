@@ -2,7 +2,7 @@
 
 Repo to track my progress over the next 100 days of Python challenges. This challenge is based on the [#100DaysOfCode in Python](https://training.talkpython.fm/courses/details/100-days-of-code-in-python) course and challenge from [talkpython.fm](talkpython.fm)
 
-
+:rocket: [Initial Repository](../../tree/737dea6bcb47f57880959065882255be102d09ea/) - Click here for the initial version of this repository.
 
 ### The plan
 
@@ -177,4 +177,6 @@ Repo to track my progress over the next 100 days of Python challenges. This chal
 | Day 97 |        |         |
 | Day 98 |        |         |
 | Day 99 |        |         |
+
+
 
