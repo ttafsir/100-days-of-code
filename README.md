@@ -6,7 +6,23 @@ Repo to track my progress over the next 100 days of Python challenges. This chal
 
 ### The plan
 
-<details><summary>Days 1-3: Playing with Datetimes</summary></details>
+<details><summary>Days 1-3: Playing with Datetimes</summary>
+
+#### Day 1
+
+* Lecture: learning datetime and date (TalkPython)
+* Reading: [Using Python datetime to Work With Dates and Times](https://realpython.com/python-datetime/)
+* Code:
+  * [datetime shell exercises](./code/day1/day1_datetime.py) 
+  * [fun exercise](./code/day1/pyramid.py)
+
+#### Day 2
+
+* Lecture: Datetime `timedelta` usage (TalkPython)
+* Code:
+  * [datetime shell exercises](./code/day2/day2_datetime.py)
+
+</details>
 
 <details><summary>Days 4-6: Collections Module</summary></details>
 
