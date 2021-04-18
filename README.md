@@ -188,7 +188,15 @@ def insert_and_delete(ds):
 
   </details>
 
-<details><summary>Days 7-9: Python Data Structures</summary></details>
+  
+
+<details><summary>Days 7-9: Python Data Structures</summary>
+
+#### Day 7
+
+* :video_camera: **Lecture**: List, Tuple and Dictionary videos (TalkPython)
+* :books: **Reading**: https://realpython.com/iterate-through-dictionary-python/
+* :notebook: **Notes**: [data structures](./datastructures)
 
 <details><summary>Days 10-12: Testing with `pytest`</summary></details>
 
