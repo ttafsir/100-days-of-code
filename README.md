@@ -31,6 +31,7 @@ Repo to track my progress over the next 100 days of Python challenges. This chal
 </details>
 
 <details><summary>Days 4-6: Collections Module</summary>
+
 #### Day 4
 
 * Lecture: Collections module (TalkPython)
