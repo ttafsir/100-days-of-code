@@ -22,9 +22,170 @@ Repo to track my progress over the next 100 days of Python challenges. This chal
 * Code:
   * [datetime shell exercises](./code/day2/day2_datetime.py)
 
+#### Day 3
+
+* Code:
+  * [pomodoro timer](./code/pomodoro.py)
+  * [logtime parser](./code/logtimes.py)
+
 </details>
 
-<details><summary>Days 4-6: Collections Module</summary></details>
+<details><summary>Days 4-6: Collections Module</summary>
+#### Day 4
+
+* Lecture: Collections module (TalkPython)
+  *  Namedtuples
+  *  Defaultdicts
+  *  Counter
+  *  Deque
+
+The `collections` module implements specialized container datatypes providing alternatives to Python’s general purpose built-in containers, [`dict`](https://docs.python.org/3/library/stdtypes.html#dict), [`list`](https://docs.python.org/3/library/stdtypes.html#list), [`set`](https://docs.python.org/3/library/stdtypes.html#set), and [`tuple`](https://docs.python.org/3/library/stdtypes.html#tuple).
+
+| [`namedtuple()`](https://docs.python.org/3/library/collections.html#collections.namedtuple) | factory function for creating tuple subclasses with named fields |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [`deque`](https://docs.python.org/3/library/collections.html#collections.deque) | list-like container with fast appends and pops on either end |
+| [`ChainMap`](https://docs.python.org/3/library/collections.html#collections.ChainMap) | dict-like class for creating a single view of multiple mappings |
+| [`Counter`](https://docs.python.org/3/library/collections.html#collections.Counter) | dict subclass for counting hashable objects                  |
+| [`OrderedDict`](https://docs.python.org/3/library/collections.html#collections.OrderedDict) | dict subclass that remembers the order entries were added    |
+| [`defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) | dict subclass that calls a factory function to supply missing values |
+| [`UserDict`](https://docs.python.org/3/library/collections.html#collections.UserDict) | wrapper around dictionary objects for easier dict subclassing |
+| [`UserList`](https://docs.python.org/3/library/collections.html#collections.UserList) | wrapper around list objects for easier list subclassing      |
+| [`UserString`](https://docs.python.org/3/library/collections.html#collections.UserString) | wrapper around string objects for easier string subclassing  |
+
+**`namedtuple`**
+
+```python
+>>> from collections import namedtuple
+>>> User = namedtuple('User', 'name role')
+>>> user = User(name="Tafsir", role="Architect")
+>>> user.name
+'Tafsir'
+>>> user.role
+'Architect'
+>>>
+```
+
+**`defaultdict`**
+
+```python
+>>> scores = {"player1": 100, "player2": 75}
+>>> scores["player3"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'player3'
+>>>
+>>> # using get to avoid KeyError
+>>> scores.get("player3")
+>>>
+>>> # assigning a value to non-existent key
+>>> scores["player3"] = 99
+>>> scores["player4"] = 99
+>>>
+>>> # assigning values while building a collection
+>>> results = {}
+>>> for player, scores in scores.items():
+...   results[player].append(scores)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyError: 'player1'
+>>>
+>>>
+>>> from collections import defaultdict
+>>> results = defaultdict(list)
+>>> for player, score in scores.items():
+...   results[player].append(score)
+...
+>>> results
+defaultdict(<class 'list'>, {'player1': [100], 'player2': [75], 'player3': [99], 'player4': [99]})
+```
+
+**`counter`**
+
+```python
+# most_common.py
+# find and printing the most common IPs
+from pathlib import Path
+
+ip_list = Path("ip_addresses.txt").read_text().split()
+
+most_common = {}
+for ip, port in (string.split(":") for string in ip_list):
+    if ip not in most_common:
+        most_common[ip] = 0
+    most_common[ip] += 1
+
+for k,v in sorted(most_common.items(),
+                  key=lambda x: x[1],
+                  reverse=True)[:5]:
+    print(k, v)
+```
+
+```sh
+➜ python most_common.py
+192.168.10.103 16
+192.168.100.1 13
+192.168.10.113 3
+192.168.100.11 2
+192.168.100.13 2
+```
+
+
+```python
+# using the most_common method from Counter
+from pathlib import Path
+
+ip_list = Path("ip_addresses.txt").read_text().split()
+addresses = [text.split(":")[0] for text in ip_list]
+for ip, count in (Counter(addresses).most_common(5)):
+  print(ip, count)
+```
+
+
+
+**`dueque`**
+
+Stacks and Queues that are useful for insert and delete from a sequence.
+
+```python
+import random
+from collections import deque
+
+lst = list(range(100000))
+deq = deque(range(100000))
+
+def insert_and_delete(ds):
+  for _ in range(10):
+    index = random.choice(range(100))
+    ds.remove(index)
+    ds.insert(index, index)
+
+# in ipython
+#   ...:    ...: %timeit insert_and_delete(lst)
+#   ...:    ...: %timeit insert_and_delete(deq)
+#   ...: 701 µs ± 4.49 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+#   ...: 17.3 µs ± 208 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
+```
+
+
+
+#### Day 5
+
+* Lecture: `collections` challenge
+
+* Reading: https://docs.python.org/3/library/collections.html#collections
+
+* Code: https://github.com/pybites/challenges/pull/797/files
+
+  
+
+#### Day 6
+
+* Lecture: Datetime `timedelta` usage (TalkPython)
+
+* reading: https://docs.python.org/3/library/collections.html#collections
+
+  </details>
 
 <details><summary>Days 7-9: Python Data Structures</summary></details>
 
