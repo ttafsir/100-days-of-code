@@ -198,6 +198,9 @@ def insert_and_delete(ds):
 * :books: **Reading**: https://realpython.com/iterate-through-dictionary-python/
 * :notebook: **Notes**: [data structures](./datastructures)
 
+
+</details>
+
 <details><summary>Days 10-12: Testing with `pytest`</summary></details>
 
 <details><summary>Days 13-15: Test-based games (classes)</summary></details>
