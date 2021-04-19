@@ -198,6 +198,9 @@ def insert_and_delete(ds):
 * :books: **Reading**: https://realpython.com/iterate-through-dictionary-python/
 * :notebook: **Notes**: [data structures](./datastructures)
 
+#### Day 8
+
+* :page_with_curl: **Code:**  [Bite 21 from codechalleng.es](https://codechalleng.es/bites/21/) - [My Solution](./code/day8/bite21.py)
 
 </details>
 
