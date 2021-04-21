@@ -13,7 +13,7 @@ Repo to track my progress over the next 100 days of Python challenges. This chal
 * Lecture: learning datetime and date (TalkPython)
 * Reading: [Using Python datetime to Work With Dates and Times](https://realpython.com/python-datetime/)
 * Code:
-  * [datetime shell exercises](./code/day1/day1_datetime.py) 
+  * [datetime shell exercises](./code/day1/day1_datetime.py)
   * [fun exercise](./code/day1/pyramid.py)
 
 #### Day 2
@@ -169,7 +169,6 @@ def insert_and_delete(ds):
 ```
 
 
-
 #### Day 5
 
 * Lecture: `collections` challenge
@@ -178,7 +177,6 @@ def insert_and_delete(ds):
 
 * Code: https://github.com/pybites/challenges/pull/797/files
 
-  
 
 #### Day 6
 
@@ -186,9 +184,9 @@ def insert_and_delete(ds):
 
 * reading: https://docs.python.org/3/library/collections.html#collections
 
-  </details>
+</details>
 
-  
+
 
 <details><summary>Days 7-9: Python Data Structures</summary>
 
@@ -201,6 +199,12 @@ def insert_and_delete(ds):
 #### Day 8
 
 * :page_with_curl: **Code:**  [Bite 21 from codechalleng.es](https://codechalleng.es/bites/21/) - [My Solution](./code/day8/bite21.py)
+
+#### Day 9
+
+* :page_with_curl: **Code:**  [Bite 89 from codechalleng.es](https://codechalleng.es/bites/89/) - [My Solution](./code/day9/states.py)
+
+
 
 </details>
 
