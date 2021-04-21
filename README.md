@@ -204,11 +204,10 @@ def insert_and_delete(ds):
 
 * :page_with_curl: **Code:**  [Bite 89 from codechalleng.es](https://codechalleng.es/bites/89/) - [My Solution](./code/day9/states.py)
 
-
-
 </details>
 
 <details><summary>Days 10-12: Testing with `pytest`</summary></details>
+* :video_camera: **Lecture**: 10-12: Testing your code with pytest (TalkPython)
 
 <details><summary>Days 13-15: Test-based games (classes)</summary></details>
 
