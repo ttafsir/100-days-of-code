@@ -206,7 +206,7 @@ def insert_and_delete(ds):
 
 </details>
 
-<details><summary>Days 10-12: Testing with `pytest`</summary></details>
+<details><summary>Days 10-12: Testing with `pytest`</summary>
 
 #### Day 10
 
@@ -215,6 +215,7 @@ def insert_and_delete(ds):
 #### Day 11
 
 * :page_with_curl: **Code:** [Tests for htping](https://github.com/ttafsir/htping/tree/main/tests)
+</details>
 
 <details><summary>Days 13-15: Test-based games (classes)</summary></details>
 
