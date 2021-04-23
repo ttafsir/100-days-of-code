@@ -207,7 +207,14 @@ def insert_and_delete(ds):
 </details>
 
 <details><summary>Days 10-12: Testing with `pytest`</summary></details>
-* :video_camera: **Lecture**: 10-12: Testing your code with pytest (TalkPython)
+
+#### Day 10
+
+* :video_camera: **Lecture**: Testing your code with pytest (TalkPython)
+
+#### Day 11
+
+* :page_with_curl: **Code:** [Tests for htping](https://github.com/ttafsir/htping/tree/main/tests)
 
 <details><summary>Days 13-15: Test-based games (classes)</summary></details>
 
