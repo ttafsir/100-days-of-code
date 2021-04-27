@@ -228,6 +228,10 @@ def insert_and_delete(ds):
 
 * :page_with_curl: **Code:** [Rock Paper Scissors](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/13-15-text-games) - [My solution](./code/day14/rps.py)
 
+#### Day 15
+
+* :page_with_curl: **Code:** [Rock Paper Scissors - 15way](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/13-15-text-games) - [My solution](./code/day15/rps_15.py)
+
 </details>
 
 <details><summary>Days 16-18: List comprehensions and generators</summary></details>
