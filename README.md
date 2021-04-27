@@ -215,9 +215,20 @@ def insert_and_delete(ds):
 #### Day 11
 
 * :page_with_curl: **Code:** [Tests for htping](https://github.com/ttafsir/htping/tree/main/tests)
+
 </details>
 
-<details><summary>Days 13-15: Test-based games (classes)</summary></details>
+<details><summary>Days 13-15: Test-based games (classes)</summary>
+
+#### Day 13
+
+* :video_camera: **Lecture**: classes with text-based games (TalkPython)
+
+#### Day 14
+
+* :page_with_curl: **Code:** [Rock Paper Scissors](https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/13-15-text-games) - [My solution](./code/day14/rps.py)
+
+</details>
 
 <details><summary>Days 16-18: List comprehensions and generators</summary></details>
 
