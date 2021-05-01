@@ -236,6 +236,23 @@ def insert_and_delete(ds):
 
 <details><summary>Days 16-18: List comprehensions and generators</summary></details>
 
+#### Day 16
+
+* :video_camera: **Lecture**: List comprehensions and generators (TalkPython)
+
+#### Day 17
+
+* :page_with_curl: **Code:**
+
+  * [names.py](./code/day17/names.py)
+
+#### Day 18
+
+* :page_with_curl: **Code:**
+
+  * [Pybite bite 26](https://codechalleng.es/bites/26/)
+  * [Pybite challenge 11](https://codechalleng.es/challenges/11/) - [My Solution](https://github.com/pybites/challenges/pull/801)
+
 <details><summary>Days 19-21: Iteration with itertools</summary></details>
 
 <details><summary>Days 22-24: Decorators</summary></details>
